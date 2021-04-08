@@ -26,7 +26,7 @@ export class MiComponente{
         this.year2 = 2021;
         this.numero = 21;
         this.contador = 0;
-        this.resultado = false;
+        //this.resultado = false;
 
 
         // prueba de logica
