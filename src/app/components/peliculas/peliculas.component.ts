@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PeliculasComponent implements OnInit {
 
-  constructor() { }
+  public datos: number;
+  public bandera: boolean;
+
+  constructor() { 
+    this.datos = 1;
+
+
+    if(this.datos > 0){
+      this.bandera = true;
+    }else{
+      this.bandera = false;
+    }
+  }
 
   ngOnInit(): void {
   }
+
 
 }

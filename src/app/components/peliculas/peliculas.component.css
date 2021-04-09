@@ -1,5 +1,10 @@
-p{
-    color:red;
-    font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+.titulo{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: Arial;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
 }

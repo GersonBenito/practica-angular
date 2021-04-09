@@ -1,1 +1,17 @@
-<p>peliculas works!</p>
+<div class="contendor">
+    <div class="titulo bg-warning">
+        Historial personas
+    </div>
+    <div class="car mt-3">
+        <div *ngIf="bandera === true" class="datos">
+            <div class="card">
+                <div class="card-body">
+                  This is some text within a card body.
+                </div>
+            </div>
+        </div>
+        <div *ngIf="bandera === false" class="datos">
+            <p>no hay datos</p>
+        </div>
+    </div>
+</div>
